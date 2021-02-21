@@ -5,13 +5,13 @@ Some useful stuffs packed to here.
 
 - getFileExtension
 - hexToRgb
-- IntToRgba
+- intToRgba
 - randomFloat
 - randomInteger
 - randomPick
 - randomString
 - rejectAfter
-- RgbaToInt
+- rgbaToInt
 - rgbToHex
 - sleep
 

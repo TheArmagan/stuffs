@@ -1,8 +1,28 @@
 {
   "name": "stuffs",
   "version": "0.1.0",
-  "description": "",
+  "description": "Some useful stuffs packed to here.",
   "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheArmagan/stuffs.git"
+  },
+  "keywords": [
+    "stuffs",
+    "stuff",
+    "useful",
+    "things"
+  ],
+  "author": "Kıraç Armağan Önal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheArmagan/stuffs/issues"
+  },
+  "homepage": "https://github.com/TheArmagan/stuffs#readme"
 }
