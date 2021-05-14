@@ -14,9 +14,13 @@ Some useful stuffs packed to here.
 - rgbaToInt
 - rgbToHex
 - sleep
+- isThenable
 
 
 ### Update history
+
+#### 0.1.1
+  - `isThenable(any)` added.
 
 #### 0.1.0
 

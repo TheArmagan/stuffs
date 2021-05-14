@@ -9,6 +9,7 @@ const rejectAfter = require("./lib/rejectAfter");
 const rgbaToInt = require("./lib/rgbaToInt");
 const rgbToHex = require("./lib/rgbToHex");
 const sleep = require("./lib/sleep");
+const isThenable = require("./lib/isThenable");
 
 module.exports = {
     getFileExtension,
@@ -21,6 +22,7 @@ module.exports = {
     rejectAfter,
     rgbaToInt,
     rgbToHex,
-    sleep
+    sleep,
+    isThenable
 }
 

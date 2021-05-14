@@ -1,4 +1,5 @@
-const randomString = require("./lib/randomString");
+const isThenable = require("./lib/isThenable");
 
 
-console.log(randomString(1024*16, randomString.STRING_MAP_HEX))
+console.log(isThenable(new Promise(r => r())), "true");
+console.log(isThenable(function(){}), "false");
