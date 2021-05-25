@@ -15,9 +15,15 @@ Some useful stuffs packed to here.
 - rgbToHex
 - sleep
 - isThenable
+- percent
+- threeDots
 
 
 ### Update history
+
+#### 0.1.2
+  - `percent(part, total, maxVal?, nanVal?)` added.
+  - `threeDots(text, maxLength)` added.
 
 #### 0.1.1
   - `isThenable(any)` added.

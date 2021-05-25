@@ -10,6 +10,8 @@ const rgbaToInt = require("./lib/rgbaToInt");
 const rgbToHex = require("./lib/rgbToHex");
 const sleep = require("./lib/sleep");
 const isThenable = require("./lib/isThenable");
+const percent = require("./lib/percent");
+const threeDots = require("./lib/threeDots");
 
 module.exports = {
     getFileExtension,
@@ -23,6 +25,8 @@ module.exports = {
     rgbaToInt,
     rgbToHex,
     sleep,
-    isThenable
+    isThenable,
+    percent,
+    threeDots
 }
 
