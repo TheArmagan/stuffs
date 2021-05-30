@@ -12,6 +12,7 @@ const sleep = require("./lib/sleep");
 const isThenable = require("./lib/isThenable");
 const percent = require("./lib/percent");
 const threeDots = require("./lib/threeDots");
+const defaultify = require("./lib/defaultify");
 
 module.exports = {
     getFileExtension,
@@ -27,6 +28,7 @@ module.exports = {
     sleep,
     isThenable,
     percent,
-    threeDots
+    threeDots,
+    defaultify
 }
 

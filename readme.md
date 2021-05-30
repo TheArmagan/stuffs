@@ -17,9 +17,13 @@ Some useful stuffs packed to here.
 - isThenable
 - percent
 - threeDots
+- defaultify
 
 
 ### Update history
+
+#### 0.1.3
+  - `defaultify(data, defaultData)` added. (Data is a object)
 
 #### 0.1.2
   - `percent(part, total, maxVal?, nanVal?)` added.
