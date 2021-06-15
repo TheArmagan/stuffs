@@ -13,6 +13,10 @@ const isThenable = require("./lib/isThenable");
 const percent = require("./lib/percent");
 const threeDots = require("./lib/threeDots");
 const defaultify = require("./lib/defaultify");
+const makeSureFolderExists = require("./lib/makeSureFolderExists");
+const makeSureFolderExistsSync = require("./lib/makeSureFolderExistsSync");
+const makeSureFileExists = require("./lib/makeSureFileExists");
+const makeSureFileExistsSync = require("./lib/makeSureFileExistsSync");
 
 module.exports = {
     getFileExtension,
@@ -29,6 +33,10 @@ module.exports = {
     isThenable,
     percent,
     threeDots,
-    defaultify
+    defaultify,
+    makeSureFolderExists,
+    makeSureFolderExistsSync,
+    makeSureFileExists,
+    makeSureFileExistsSync
 }
 

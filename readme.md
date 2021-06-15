@@ -18,9 +18,19 @@ Some useful stuffs packed to here.
 - percent
 - threeDots
 - defaultify
+- makeSureFolderExists
+- makeSureFolderExistsSync
+- makeSureFileExists
+- makeSureFileExistsSync
 
 
 ### Update history
+
+#### 0.1.4
+- `makeSureFolderExists(path)` added.
+- `makeSureFolderExistsSync(path)` added.
+- `makeSureFileExists(path, content, encoding?)` added.
+- `makeSureFileExistsSync(path, content, encoding?)` added.
 
 #### 0.1.3
   - `defaultify(data, defaultData)` added. (Data is a object)
