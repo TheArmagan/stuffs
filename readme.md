@@ -26,6 +26,9 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.5
+- Some changes on `defaultify`.
+
 #### 0.1.4
 - `makeSureFolderExists(path)` added.
 - `makeSureFolderExistsSync(path)` added.
