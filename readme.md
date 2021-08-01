@@ -22,9 +22,13 @@ Some useful stuffs packed to here.
 - makeSureFolderExistsSync
 - makeSureFileExists
 - makeSureFileExistsSync
+- accurateSleep
 
 
 ### Update history
+
+#### 0.1.6
+- `accurateSleep(milliseconds)` added. For much better for millisecond-level accuracy. But uses more resources.
 
 #### 0.1.5
 - Some changes on `defaultify`.

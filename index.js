@@ -17,6 +17,7 @@ const makeSureFolderExists = require("./lib/makeSureFolderExists");
 const makeSureFolderExistsSync = require("./lib/makeSureFolderExistsSync");
 const makeSureFileExists = require("./lib/makeSureFileExists");
 const makeSureFileExistsSync = require("./lib/makeSureFileExistsSync");
+const accurateSleep = require("./lib/accurateSleep");
 
 module.exports = {
     getFileExtension,
@@ -37,6 +38,7 @@ module.exports = {
     makeSureFolderExists,
     makeSureFolderExistsSync,
     makeSureFileExists,
-    makeSureFileExistsSync
+    makeSureFileExistsSync,
+    accurateSleep
 }
 
