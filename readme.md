@@ -3,9 +3,18 @@ Some useful stuffs packed to here.
 
 ## Utilities
 
+- accurateSleep
+- chunkify
+- defaultify
 - getFileExtension
 - hexToRgb
 - intToRgba
+- isThenable
+- makeSureFileExists
+- makeSureFileExistsSync
+- makeSureFolderExists
+- makeSureFolderExistsSync
+- percent
 - randomFloat
 - randomInteger
 - randomPick
@@ -14,18 +23,13 @@ Some useful stuffs packed to here.
 - rgbaToInt
 - rgbToHex
 - sleep
-- isThenable
-- percent
 - threeDots
-- defaultify
-- makeSureFolderExists
-- makeSureFolderExistsSync
-- makeSureFileExists
-- makeSureFileExistsSync
-- accurateSleep
 
 
 ### Update history
+
+#### 0.1.7
+- `chunkify(array, chunkSize)` added. Chunks an array into smaller arrays.
 
 #### 0.1.6
 - `accurateSleep(milliseconds)` added. For much better for millisecond-level accuracy. But uses more resources.
