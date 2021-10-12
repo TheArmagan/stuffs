@@ -6,6 +6,7 @@ Some useful stuffs packed to here.
 - accurateSleep
 - chunkify
 - defaultify
+- formatSeconds
 - getFileExtension
 - hexToRgb
 - intToRgba
@@ -27,6 +28,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+#### 0.1.8
+- `formatSeconds(seconds)` added. Formats seconds to cool-looking string. formatSecond(363) -> '06:03'
 
 #### 0.1.7
 - `chunkify(array, chunkSize)` added. Chunks an array into smaller arrays.

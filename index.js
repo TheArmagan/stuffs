@@ -1,6 +1,7 @@
 const accurateSleep = require("./lib/accurateSleep");
 const chunkify = require("./lib/chunkify");
 const defaultify = require("./lib/defaultify");
+const formatSeconds = require("./lib/formatSeconds");
 const getFileExtension = require("./lib/getFileExtension");
 const hexToRgb = require("./lib/hexToRgb");
 const intToRgba = require("./lib/intToRgba");
@@ -15,8 +16,8 @@ const randomInteger = require("./lib/randomInteger");
 const randomPick = require("./lib/randomPick");
 const randomString = require("./lib/randomString");
 const rejectAfter = require("./lib/rejectAfter");
-const rgbToHex = require("./lib/rgbToHex");
 const rgbaToInt = require("./lib/rgbaToInt");
+const rgbToHex = require("./lib/rgbToHex");
 const sleep = require("./lib/sleep");
 const threeDots = require("./lib/threeDots");
 
@@ -26,6 +27,7 @@ module.exports = {
     accurateSleep,
     chunkify,
     defaultify,
+    formatSeconds,
     getFileExtension,
     hexToRgb,
     intToRgba,
