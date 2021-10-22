@@ -15,6 +15,7 @@ Some useful stuffs packed to here.
 - makeSureFileExistsSync
 - makeSureFolderExists
 - makeSureFolderExistsSync
+- mapReplace
 - percent
 - randomFloat
 - randomInteger
@@ -28,6 +29,10 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+#### 0.1.9
+- `mapReplace(text, map)` added.
+  - Example: `mapReplace('Hello, world!', {'world': 'Universe'})`
 
 #### 0.1.8
 - `formatSeconds(seconds)` added. Formats seconds to cool-looking string. formatSecond(363) -> '06:03'

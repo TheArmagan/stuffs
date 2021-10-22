@@ -10,6 +10,7 @@ const makeSureFileExists = require("./lib/makeSureFileExists");
 const makeSureFileExistsSync = require("./lib/makeSureFileExistsSync");
 const makeSureFolderExists = require("./lib/makeSureFolderExists");
 const makeSureFolderExistsSync = require("./lib/makeSureFolderExistsSync");
+const mapReplace = require("./lib/mapReplace");
 const percent = require("./lib/percent");
 const randomFloat = require("./lib/randomFloat");
 const randomInteger = require("./lib/randomInteger");
@@ -20,8 +21,6 @@ const rgbaToInt = require("./lib/rgbaToInt");
 const rgbToHex = require("./lib/rgbToHex");
 const sleep = require("./lib/sleep");
 const threeDots = require("./lib/threeDots");
-
-
 
 module.exports = {
     accurateSleep,
@@ -36,6 +35,7 @@ module.exports = {
     makeSureFileExistsSync,
     makeSureFolderExists,
     makeSureFolderExistsSync,
+    mapReplace,
     percent,
     randomFloat,
     randomInteger,
@@ -45,6 +45,6 @@ module.exports = {
     rgbaToInt,
     rgbToHex,
     sleep,
-    threeDots
+    threeDots,
 }
 
