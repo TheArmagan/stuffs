@@ -6,6 +6,7 @@ Some useful stuffs packed to here.
 - accurateSleep
 - chunkify
 - defaultify
+- escapeRegex
 - formatSeconds
 - getFileExtension
 - hexToRgb
@@ -29,6 +30,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+#### 0.1.10
+- `escapeRegex(str)` added.
 
 #### 0.1.9
 - `mapReplace(text, map)` added.
