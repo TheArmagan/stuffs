@@ -7,6 +7,7 @@ Some useful stuffs packed to here.
 - chunkify
 - defaultify
 - escapeRegex
+- execAsync
 - formatSeconds
 - getFileExtension
 - hexToRgb
@@ -30,6 +31,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+#### 0.1.11
+- `execAsync(cmd)` added.
 
 #### 0.1.10
 - `escapeRegex(str)` added.

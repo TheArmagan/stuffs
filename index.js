@@ -2,6 +2,7 @@ const accurateSleep = require("./lib/accurateSleep");
 const chunkify = require("./lib/chunkify");
 const defaultify = require("./lib/defaultify");
 const escapeRegex = require("./lib/escapeRegex");
+const execAsync = require("./lib/execAsync");
 const formatSeconds = require("./lib/formatSeconds");
 const getFileExtension = require("./lib/getFileExtension");
 const hexToRgb = require("./lib/hexToRgb");
@@ -29,6 +30,7 @@ module.exports = {
     chunkify,
     defaultify,
     escapeRegex,
+    execAsync,
     formatSeconds,
     getFileExtension,
     hexToRgb,
@@ -50,4 +52,3 @@ module.exports = {
     sleep,
     threeDots,
 }
-
