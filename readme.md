@@ -32,6 +32,9 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.13
+- `defaultify(data, defaultData, recursive=true)` added.
+
 #### 0.1.12
 - `execAsync(cmd, cwd?)` added.
 
