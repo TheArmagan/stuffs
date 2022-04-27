@@ -5,6 +5,7 @@ const escapeRegex = require("./lib/escapeRegex");
 const execAsync = require("./lib/execAsync");
 const formatSeconds = require("./lib/formatSeconds");
 const getFileExtension = require("./lib/getFileExtension");
+const getValueType = require("./lib/getValueType");
 const hexToRgb = require("./lib/hexToRgb");
 const intToRgba = require("./lib/intToRgba");
 const isThenable = require("./lib/isThenable");
@@ -19,10 +20,11 @@ const randomInteger = require("./lib/randomInteger");
 const randomPick = require("./lib/randomPick");
 const randomString = require("./lib/randomString");
 const rejectAfter = require("./lib/rejectAfter");
-const rgbToHex = require("./lib/rgbToHex");
 const rgbaToInt = require("./lib/rgbaToInt");
+const rgbToHex = require("./lib/rgbToHex");
 const sleep = require("./lib/sleep");
 const threeDots = require("./lib/threeDots");
+const validateShape = require("./lib/validateShape");
 
 
 module.exports = {
@@ -33,6 +35,7 @@ module.exports = {
     execAsync,
     formatSeconds,
     getFileExtension,
+    getValueType,
     hexToRgb,
     intToRgba,
     isThenable,
@@ -51,4 +54,5 @@ module.exports = {
     rgbToHex,
     sleep,
     threeDots,
+    validateShape,
 }

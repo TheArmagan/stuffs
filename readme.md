@@ -10,6 +10,7 @@ Some useful stuffs packed to here.
 - execAsync
 - formatSeconds
 - getFileExtension
+- getValueType
 - hexToRgb
 - intToRgba
 - isThenable
@@ -28,9 +29,14 @@ Some useful stuffs packed to here.
 - rgbToHex
 - sleep
 - threeDots
+- validateShape
 
 
 ### Update history
+
+#### 0.1.14
+- `validateShape(data, originalData, recursive=true)` added. Validates object shape based on original object types.
+- `getValueType(value)` added. Eg: getValueType("") -> String, getValueType([]) -> Array
 
 #### 0.1.13
 - `defaultify(data, defaultData, recursive=true)` added.
