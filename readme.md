@@ -34,6 +34,9 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.15
+- Fixed `defaultify()` on arrays..
+
 #### 0.1.14
 - `validateShape(data, originalData, recursive=true)` added. Validates object shape based on original object types.
 - `getValueType(value)` added. Eg: getValueType("") -> String, getValueType([]) -> Array
