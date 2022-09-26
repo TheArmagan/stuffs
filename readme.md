@@ -8,6 +8,7 @@ Some useful stuffs packed to here.
 - defaultify
 - escapeRegex
 - execAsync
+- fillGaps
 - formatSeconds
 - getFileExtension
 - getValueType
@@ -33,6 +34,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+#### 0.1.18
+- `fillGaps(array)` added. Eg: fillGaps([1, 2, 5]) -> [1, 2, 3, 4, 5]
 
 #### 0.1.15
 - Fixed `defaultify()` on arrays..

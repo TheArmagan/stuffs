@@ -3,6 +3,7 @@ const chunkify = require("./lib/chunkify");
 const defaultify = require("./lib/defaultify");
 const escapeRegex = require("./lib/escapeRegex");
 const execAsync = require("./lib/execAsync");
+const fillGaps = require("./lib/fillGaps");
 const formatSeconds = require("./lib/formatSeconds");
 const getFileExtension = require("./lib/getFileExtension");
 const getValueType = require("./lib/getValueType");
@@ -26,13 +27,13 @@ const sleep = require("./lib/sleep");
 const threeDots = require("./lib/threeDots");
 const validateShape = require("./lib/validateShape");
 
-
 module.exports = {
     accurateSleep,
     chunkify,
     defaultify,
     escapeRegex,
     execAsync,
+    fillGaps,
     formatSeconds,
     getFileExtension,
     getValueType,
