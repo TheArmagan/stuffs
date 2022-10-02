@@ -35,6 +35,9 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.19
+- `mapReplace(text, map)` now `map` argument supports entry mappings. Eg: `[[/a/g, "aaa"], [/b/g, "bbb"]]`;
+
 #### 0.1.18
 - `fillGaps(array)` added. Eg: fillGaps([1, 2, 5]) -> [1, 2, 3, 4, 5]
 
