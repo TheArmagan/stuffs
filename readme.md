@@ -35,6 +35,12 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.21
+- Much better Typescript support.
+
+#### 0.1.20
+- Typescript support.
+
 #### 0.1.19
 - `mapReplace(text, map)` now `map` argument supports entry mappings. Eg: `[[/a/g, "aaa"], [/b/g, "bbb"]]`;
 
