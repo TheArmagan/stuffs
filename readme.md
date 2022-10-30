@@ -20,6 +20,7 @@ Some useful stuffs packed to here.
 - makeSureFolderExists
 - makeSureFolderExistsSync
 - mapReplace
+- parseDuration
 - percent
 - randomFloat
 - randomInteger
@@ -34,6 +35,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+### 0.1.22
+- `parseDuration(str)` added. Eg: parseDuration("1m30s") -> 90000
 
 #### 0.1.21
 - Much better Typescript support.

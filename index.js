@@ -15,6 +15,7 @@ const makeSureFileExistsSync = require("./lib/makeSureFileExistsSync");
 const makeSureFolderExists = require("./lib/makeSureFolderExists");
 const makeSureFolderExistsSync = require("./lib/makeSureFolderExistsSync");
 const mapReplace = require("./lib/mapReplace");
+const parseDuration = require("./lib/parseDuration");
 const percent = require("./lib/percent");
 const randomFloat = require("./lib/randomFloat");
 const randomInteger = require("./lib/randomInteger");
@@ -45,6 +46,7 @@ module.exports = {
     makeSureFolderExists,
     makeSureFolderExistsSync,
     mapReplace,
+    parseDuration,
     percent,
     randomFloat,
     randomInteger,

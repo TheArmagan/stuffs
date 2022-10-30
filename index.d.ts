@@ -26,4 +26,5 @@ import rgbToHex = require("./lib/rgbToHex");
 import sleep = require("./lib/sleep");
 import threeDots = require("./lib/threeDots");
 import validateShape = require("./lib/validateShape");
-export { accurateSleep, chunkify, defaultify, escapeRegex, execAsync, fillGaps, formatSeconds, getFileExtension, getValueType, hexToRgb, intToRgba, isThenable, makeSureFileExists, makeSureFileExistsSync, makeSureFolderExists, makeSureFolderExistsSync, mapReplace, percent, randomFloat, randomInteger, randomPick, randomString, rejectAfter, rgbaToInt, rgbToHex, sleep, threeDots, validateShape };
+import parseDuration = require("./lib/parseDuration");
+export { accurateSleep, chunkify, defaultify, escapeRegex, execAsync, fillGaps, formatSeconds, getFileExtension, getValueType, hexToRgb, intToRgba, isThenable, makeSureFileExists, makeSureFileExistsSync, makeSureFolderExists, makeSureFolderExistsSync, mapReplace, percent, randomFloat, randomInteger, randomPick, randomString, rejectAfter, rgbaToInt, rgbToHex, sleep, threeDots, validateShape, parseDuration };
