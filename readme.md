@@ -5,6 +5,7 @@ Some useful stuffs packed to here.
 
 - accurateSleep
 - chunkify
+- combinations
 - defaultify
 - escapeRegex
 - execAsync
@@ -35,6 +36,9 @@ Some useful stuffs packed to here.
 
 
 ### Update history
+
+### 0.1.23
+- `combinations(["1","2","3"])` added. Eg: [...combinations(["1","2","3"])] -> [["1"],["2"],["1","2"],["3"],["1","3"],["2","3"],["1","2","3"]]
 
 ### 0.1.22
 - `parseDuration(str)` added. Eg: parseDuration("1m30s") -> 90000

@@ -1,5 +1,6 @@
 const accurateSleep = require("./lib/accurateSleep");
 const chunkify = require("./lib/chunkify");
+const combinations = require("./lib/combinations.js");
 const defaultify = require("./lib/defaultify");
 const escapeRegex = require("./lib/escapeRegex");
 const execAsync = require("./lib/execAsync");
@@ -29,6 +30,7 @@ const threeDots = require("./lib/threeDots");
 const validateShape = require("./lib/validateShape");
 
 module.exports = {
+    combinations,
     accurateSleep,
     chunkify,
     defaultify,
