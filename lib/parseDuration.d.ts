@@ -1,2 +1,2 @@
-function parseDuration(str: string): number;
+declare function parseDuration(str: string): number;
 export = parseDuration;

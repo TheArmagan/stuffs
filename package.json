@@ -1,6 +1,6 @@
 {
   "name": "stuffs",
-  "version": "0.1.27",
+  "version": "0.1.28",
   "description": "Some useful stuffs packed to here.",
   "main": "index.js",
   "directories": {
