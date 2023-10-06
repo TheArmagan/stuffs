@@ -37,15 +37,15 @@ Some useful stuffs packed to here.
 
 ### Update history
 
-### 0.1.29
+#### 0.1.29
 
 - Added recursive option to `mapReplace(text, map, recursive=true)`. Eg: `mapReplace({ test: 1, test2: "hello", deep: { test3: "world" } }, {"hello": "hey", "world": "guy"}, true) => { test: 1, test2: "hey", deep: { test3: "guy" } }`
 
-### 0.1.23
+#### 0.1.23
 
 - `combinations(["1","2","3"])` added. Eg: [...combinations(["1","2","3"])] -> [["1"],["2"],["1","2"],["3"],["1","3"],["2","3"],["1","2","3"]]
 
-### 0.1.22
+#### 0.1.22
 
 - `parseDuration(str)` added. Eg: parseDuration("1m30s") -> 90000
 
