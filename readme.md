@@ -11,6 +11,7 @@ Some useful stuffs packed to here.
 - escapeRegex
 - execAsync
 - fillGaps
+- formatDuration
 - formatSeconds
 - getFileExtension
 - getValueType
@@ -36,6 +37,9 @@ Some useful stuffs packed to here.
 - validateShape
 
 ### Update history
+
+#### 0.1.32
+- Added `formatDuration(ms, formatting?)`. Eg: `formatDuration(600000000)` -> `6 days, 22 hours, 40 minutes`
 
 #### 0.1.29
 
