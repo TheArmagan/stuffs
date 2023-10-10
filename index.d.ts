@@ -4,6 +4,7 @@ import defaultify = require("./lib/defaultify");
 import escapeRegex = require("./lib/escapeRegex");
 import execAsync = require("./lib/execAsync");
 import fillGaps = require("./lib/fillGaps");
+import formatDuration = require("./lib/formatDuration");
 import formatSeconds = require("./lib/formatSeconds");
 import getFileExtension = require("./lib/getFileExtension");
 import getValueType = require("./lib/getValueType");
@@ -28,4 +29,36 @@ import threeDots = require("./lib/threeDots");
 import validateShape = require("./lib/validateShape");
 import parseDuration = require("./lib/parseDuration");
 import combinations = require("./lib/combinations");
-export { accurateSleep, chunkify, defaultify, escapeRegex, execAsync, fillGaps, formatSeconds, getFileExtension, getValueType, hexToRgb, intToRgba, isThenable, makeSureFileExists, makeSureFileExistsSync, makeSureFolderExists, makeSureFolderExistsSync, mapReplace, percent, randomFloat, randomInteger, randomPick, randomString, rejectAfter, rgbaToInt, rgbToHex, sleep, threeDots, validateShape, parseDuration, combinations };
+export { 
+  accurateSleep, 
+  chunkify, 
+  defaultify, 
+  escapeRegex, 
+  execAsync, 
+  fillGaps, 
+  formatDuration, 
+  formatSeconds, 
+  getFileExtension, 
+  getValueType, 
+  hexToRgb, 
+  intToRgba, 
+  isThenable, 
+  makeSureFileExists, 
+  makeSureFileExistsSync, 
+  makeSureFolderExists, 
+  makeSureFolderExistsSync, 
+  mapReplace, 
+  percent, 
+  randomFloat, 
+  randomInteger, 
+  randomPick, 
+  randomString, 
+  rejectAfter, 
+  rgbaToInt, 
+  rgbToHex, 
+  sleep, 
+  threeDots, 
+  validateShape, 
+  parseDuration, 
+  combinations 
+};
