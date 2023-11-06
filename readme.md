@@ -6,6 +6,7 @@ Some useful stuffs packed to here.
 
 - accurateSleep
 - chunkify
+- chunkifyString
 - combinations
 - defaultify
 - escapeRegex
@@ -37,6 +38,9 @@ Some useful stuffs packed to here.
 - validateShape
 
 ### Update history
+
+#### 0.1.36
+- Added `chunkifyString(str, chunkSize, separator?)`. Eg: `chunkifyString("Hello, world!", 7, ",")` -> `["Hello", " world!"]`
 
 #### 0.1.32
 - Added `formatDuration(ms, formatting?)`. Eg: `formatDuration(600000000)` -> `6 days, 22 hours, 40 minutes`
