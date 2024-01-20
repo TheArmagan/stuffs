@@ -1,2 +1,2 @@
-declare const _exports: <T extends any>(arr: T[]) => IterableIterator<T[]>;
+declare function _exports(valuesArray?: any[]): Generator<any[], void, unknown>;
 export = _exports;

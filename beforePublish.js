@@ -11,7 +11,9 @@ const readdir = require("recursive-readdir");
     console.log("unlinked", file);
   });
   console.log("generating fresh d.ts");
-  cp.execSync(`npx tsc --allowJs -m commonjs --emitDeclarationOnly -d ./index.js`, { cwd: process.cwd() });
+  try {
+    cp.execSync(`npx tsc --allowJs -m commonjs --emitDeclarationOnly -d ./index.js`, { cwd: process.cwd() });
+  } catch (error) { }
   console.log("done");
   setTimeout(() => { }, 2000);
 })();

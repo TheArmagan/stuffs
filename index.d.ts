@@ -1,3 +1,4 @@
+import combinations = require("./lib/combinations.js");
 import accurateSleep = require("./lib/accurateSleep");
 import chunkify = require("./lib/chunkify");
 import defaultify = require("./lib/defaultify");
@@ -16,6 +17,7 @@ import makeSureFileExistsSync = require("./lib/makeSureFileExistsSync");
 import makeSureFolderExists = require("./lib/makeSureFolderExists");
 import makeSureFolderExistsSync = require("./lib/makeSureFolderExistsSync");
 import mapReplace = require("./lib/mapReplace");
+import parseDuration = require("./lib/parseDuration");
 import percent = require("./lib/percent");
 import randomFloat = require("./lib/randomFloat");
 import randomInteger = require("./lib/randomInteger");
@@ -27,38 +29,4 @@ import rgbToHex = require("./lib/rgbToHex");
 import sleep = require("./lib/sleep");
 import threeDots = require("./lib/threeDots");
 import validateShape = require("./lib/validateShape");
-import parseDuration = require("./lib/parseDuration");
-import combinations = require("./lib/combinations");
-export { 
-  accurateSleep, 
-  chunkify, 
-  defaultify, 
-  escapeRegex, 
-  execAsync, 
-  fillGaps, 
-  formatDuration, 
-  formatSeconds, 
-  getFileExtension, 
-  getValueType, 
-  hexToRgb, 
-  intToRgba, 
-  isThenable, 
-  makeSureFileExists, 
-  makeSureFileExistsSync, 
-  makeSureFolderExists, 
-  makeSureFolderExistsSync, 
-  mapReplace, 
-  percent, 
-  randomFloat, 
-  randomInteger, 
-  randomPick, 
-  randomString, 
-  rejectAfter, 
-  rgbaToInt, 
-  rgbToHex, 
-  sleep, 
-  threeDots, 
-  validateShape, 
-  parseDuration, 
-  combinations 
-};
+export { combinations, accurateSleep, chunkify, defaultify, escapeRegex, execAsync, fillGaps, formatDuration, formatSeconds, getFileExtension, getValueType, hexToRgb, intToRgba, isThenable, makeSureFileExists, makeSureFileExistsSync, makeSureFolderExists, makeSureFolderExistsSync, mapReplace, parseDuration, percent, randomFloat, randomInteger, randomPick, randomString, rejectAfter, rgbaToInt, rgbToHex, sleep, threeDots, validateShape };

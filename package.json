@@ -1,6 +1,6 @@
 {
   "name": "stuffs",
-  "version": "0.1.36",
+  "version": "0.1.37",
   "description": "Some useful stuffs packed to here.",
   "main": "index.js",
   "directories": {
@@ -29,10 +29,8 @@
   "homepage": "https://github.com/TheArmagan/stuffs#readme",
   "devDependencies": {
     "@types/node": "^17.0.8",
-    "recursive-readdir": "^2.2.2",
-    "tsc": "^2.0.4"
-  },
-  "dependencies": {
-    "typescript": "^4.8.4"
+    "recursive-readdir": "^2.2.3",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
   }
 }

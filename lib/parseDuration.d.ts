@@ -1,2 +1,2 @@
-declare function parseDuration(str: string): number;
-export = parseDuration;
+declare const _exports: (str: string) => number;
+export = _exports;
