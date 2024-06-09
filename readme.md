@@ -39,6 +39,11 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.40
+- Added `cronMinutesTrigger(minuteMarks, callback)`. Eg: `cronMinutesTrigger([0, 15, 30, 45], () => { console.log("Triggered"); })`
+- Added `cronHourTrigger(hourMarks, callback)`. Eg: `cronHourTrigger([0, 6, 12, 18], () => { console.log("Triggered"); })`
+- Added `cronDayTrigger(dayMarks, callback)`. Eg: `cronDayTrigger([0, 3, 5], () => { console.log("Triggered"); })`
+
 #### 0.1.36
 - Added `chunkifyString(str, chunkSize, separator?)`. Eg: `chunkifyString("Hello, world!", 7, ",")` -> `["Hello", " world!"]`
 
