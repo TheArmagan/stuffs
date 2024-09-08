@@ -36,11 +36,38 @@ Some useful stuffs packed to here.
 - sleep
 - threeDots
 - validateShape
+- cronDayTrigger
+- cronHourTrigger
+- cronMinuteTrigger
+- broadcastProxy
 
 ### Update history
 
+#### 0.1.41
+- Added `broadcastProxy(anyArrayOfT): T`.
+```js
+const apple = {
+  delicious: true,
+  eat: () => console.log("Apple is delicious")
+};
+
+const avocado = {
+  delicious: false,
+  eat: () => console.log("Avocado is gross")
+};
+
+const fruitBroadcast = broadcastProxy([apple, avocado]);
+
+fruitBroadcast.eat();
+// Apple is delicious
+// Avocado is gross
+
+console.log(fruitBroadcast.delicious);
+// [true, false]
+```
+
 #### 0.1.40
-- Added `cronMinutesTrigger(minuteMarks, callback)`. Eg: `cronMinutesTrigger([0, 15, 30, 45], () => { console.log("Triggered"); })`
+- Added `cronMinuteTrigger(minuteMarks, callback)`. Eg: `cronMinuteTrigger([0, 15, 30, 45], () => { console.log("Triggered"); })`
 - Added `cronHourTrigger(hourMarks, callback)`. Eg: `cronHourTrigger([0, 6, 12, 18], () => { console.log("Triggered"); })`
 - Added `cronDayTrigger(dayMarks, callback)`. Eg: `cronDayTrigger([0, 3, 5], () => { console.log("Triggered"); })`
 

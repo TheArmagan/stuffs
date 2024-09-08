@@ -29,4 +29,47 @@ import rgbToHex = require("./lib/rgbToHex");
 import sleep = require("./lib/sleep");
 import threeDots = require("./lib/threeDots");
 import validateShape = require("./lib/validateShape");
-export { combinations, accurateSleep, chunkify, defaultify, escapeRegex, execAsync, fillGaps, formatDuration, formatSeconds, getFileExtension, getValueType, hexToRgb, intToRgba, isThenable, makeSureFileExists, makeSureFileExistsSync, makeSureFolderExists, makeSureFolderExistsSync, mapReplace, parseDuration, percent, randomFloat, randomInteger, randomPick, randomString, rejectAfter, rgbaToInt, rgbToHex, sleep, threeDots, validateShape };
+import chunkifyString = require("./lib/chunkifyString");
+import cronDayTrigger = require("./lib/cronDayTrigger");
+import cronHourTrigger = require("./lib/cronHourTrigger");
+import cronMinuteTrigger = require("./lib/cronMinuteTrigger");
+import broadcastProxy = require("./lib/broadcastProxy");
+
+export {
+  combinations,
+  accurateSleep,
+  chunkify,
+  defaultify,
+  escapeRegex,
+  execAsync,
+  fillGaps,
+  formatDuration,
+  formatSeconds,
+  getFileExtension,
+  getValueType,
+  hexToRgb,
+  intToRgba,
+  isThenable,
+  makeSureFileExists,
+  makeSureFileExistsSync,
+  makeSureFolderExists,
+  makeSureFolderExistsSync,
+  mapReplace,
+  parseDuration,
+  percent,
+  randomFloat,
+  randomInteger,
+  randomPick,
+  randomString,
+  rejectAfter,
+  rgbaToInt,
+  rgbToHex,
+  sleep,
+  threeDots,
+  validateShape,
+  chunkifyString,
+  cronDayTrigger,
+  cronHourTrigger,
+  cronMinuteTrigger,
+  broadcastProxy
+};
