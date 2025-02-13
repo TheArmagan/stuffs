@@ -43,6 +43,20 @@ Some useful stuffs packed to here.
 
 ### Update history
 
+#### 0.1.43
+- `formatDuration(ms, formatting)` now supports excluding time parts!
+```js
+formatDuration(1767229200000,{
+  years: null,
+  months: null,
+  weeks: null,
+  days: ["day", "days"],
+  hours: ["hour", "hours"],
+  minutes: ["minute", "minutes"],
+  seconds: ["second", "seconds"]
+});
+```
+
 #### 0.1.41
 - Added `broadcastProxy(anyArrayOfT): T`.
 ```js
